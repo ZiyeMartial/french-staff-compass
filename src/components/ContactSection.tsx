@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { useTranslation } from "@/hooks/useTranslation";
 import { Button } from "@/components/ui/button";
@@ -101,7 +100,7 @@ export const ContactSection = () => {
               </div>
               
               <div>
-                <button type="submit" className="modern-button w-full">
+                <button type="submit" className="modern-button w-full text-right">
                   {t('submitButton')}
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </button>
